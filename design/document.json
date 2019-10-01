@@ -15,7 +15,11 @@
         "codeComponentIdentifier" : ".\/Button.tsx_Button",
         "codeComponentProps" : {
           "disabled" : false,
-          "kind" : "danger"
+          "fullWidth" : false,
+          "kind" : "danger",
+          "size" : "large",
+          "text" : "Click",
+          "variant" : "contained"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -53,7 +57,7 @@
         "rotation" : 0,
         "top" : 240,
         "visible" : true,
-        "width" : 167,
+        "width" : 114,
         "widthType" : 0
       }
     ],

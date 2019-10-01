@@ -1,55 +1,68 @@
-import * as React from "react";
-import { PropertyControls, ControlType } from "framer";
-import * as Carbon from "carbon-components-react";
-import "carbon-components/css/carbon-components.css";
+import * as React from "react"
+import {
+    Stack,
+    StackProperties,
+    addPropertyControls,
+    ControlType,
+} from "framer"
+//@ts-ignore
+import * as Carbon from "carbon-components-react"
+import "carbon-components/css/carbon-components.css"
 
-// We can tell TypeScript to help us by defining our types
-type Props = {
-  text: string;
-  kind: string;
-  disabled: boolean;
-  width: number;
-  height: number;
-};
+//Create component and return it
+export function Button(props) {
+    const { disabled, kind, size, text, ...rest } = props
 
-export class Button extends React.Component<Props> {
-  // Return the component contents in JSX
-  render() {
     return (
-      <Carbon.Button
-        kind={this.props.kind}
-        disabled={this.props.disabled}
-        width={this.props.width}
-        height={this.props.height}
-      >
-        {this.props.text}
-      </Carbon.Button>
-    );
-  }
-
-  // Set default values for props if there are none
-  static defaultProps: Props = {
-    text: "Hello World!",
-    kind: "danger",
-    disabled: false,
-    width: 168,
-    height: 50
-  };
-
-  // Add Framer UI for this component (in the properties panel)
-  static propertyControls: PropertyControls<Props> = {
-    // text: { type: ControlType.String, title: "Text" },
-    kind: {
-      type: ControlType.Enum,
-      title: "Kind",
-      options: ["primary", "secondary", "tertiary", "danger"],
-      optionTitles: ["Primary", "Secondary", "Tertiary", "Danger"]
-    },
-    disabled: {
-      type: ControlType.Boolean,
-      title: "Disabled",
-      enabledTitle: "Yes",
-      disabledTitle: "No"
-    }
-  };
+        <Stack
+            {...rest}
+            alignment="center"
+            distribution="center"
+            overflow="visible"
+        >
+            <Carbon.Button
+                {...{
+                    disabled,
+                    kind,
+                    size,
+                }}
+            >
+                {text}
+            </Carbon.Button>
+        </Stack>
+    )
 }
+
+//Define default props
+Button.defaultProps = {
+    width: 115,
+    height: 50,
+    kind: "primary",
+    size: "default",
+    text: "Click",
+    disabled: false,
+    fullWidth: false,
+}
+
+//Create property controls to expose properties in the canvas
+addPropertyControls(Button, {
+    text: { type: ControlType.String, title: "Text" },
+    disabled: {
+        type: ControlType.Boolean,
+        title: "Disabled",
+        enabledTitle: "Yes",
+        disabledTitle: "No",
+    },
+    kind: {
+        type: ControlType.Enum,
+        title: "Kind",
+        options: ["primary", "secondary", "tertiary", "danger"],
+        optionTitles: ["Primary", "Secondary", "Tertiary", "Danger"],
+    },
+    size: {
+        type: ControlType.Enum,
+        title: "Size",
+        options: ["default", "field", "small"],
+        optionTitles: ["Default", "Field", "Small"],
+    },
+})

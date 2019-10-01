@@ -3,11 +3,10 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@types/react": "^16.4.16",
-		"framer": "^0.10",
 		"framer-cli": "^1.2.0"
 	},
 	"peerDependencies": {
-		"framer": "^0.10",
+		"framer": "^0.10 || ^1",
 		"react": "^16.3.0",
 		"react-dom": "^16.3.0"
 	},
