@@ -1,0 +1,22 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16",
+		"framer": "^0.10",
+		"framer-cli": "^1.2.0"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "2795e6d9-56e1-45b2-8695-7b3f99a43e9c"
+	},
+	"author": "Aroa Gil Bo",
+	"dependencies": {
+		"carbon-components": "^10.1.0",
+		"carbon-components-react": "^7.1.0"
+	}
+}
