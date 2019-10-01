@@ -1,6 +1,6 @@
 import * as React from "react";
 import { PropertyControls, ControlType } from "framer";
-import { Button as _Button } from "carbon-components-react";
+import * as Carbon from "carbon-components-react";
 import "carbon-components/css/carbon-components.css";
 
 // We can tell TypeScript to help us by defining our types
@@ -16,14 +16,14 @@ export class Button extends React.Component<Props> {
   // Return the component contents in JSX
   render() {
     return (
-      <_Button
+      <Carbon.Button
         kind={this.props.kind}
         disabled={this.props.disabled}
         width={this.props.width}
         height={this.props.height}
       >
         {this.props.text}
-      </_Button>
+      </Carbon.Button>
     );
   }
 
@@ -53,15 +53,3 @@ export class Button extends React.Component<Props> {
     }
   };
 }
-
-// Define some standard CSS for your component
-const style: React.CSSProperties = {
-  height: "100%",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  textAlign: "center",
-  color: "#8855FF",
-  background: "rgba(136, 85, 255, 0.1)",
-  overflow: "hidden"
-};
