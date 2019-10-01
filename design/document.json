@@ -3,45 +3,109 @@
     "__class" : "RootNode",
     "children" : [
       {
-        "__class" : "CodeComponentNode",
+        "__class" : "FrameNode",
         "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
         "bottom" : null,
         "centerAnchorX" : 0,
         "centerAnchorY" : 0,
         "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.50151057401812693,
+            "centerAnchorY" : 0.49772727272727274,
+            "children" : [
 
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Button.tsx_Button",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "icon" : "Search16",
+              "kind" : "primary",
+              "size" : "default",
+              "text" : "Click"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 51,
+            "heightType" : 0,
+            "id" : "cm_W60LZ9",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "SdnKHOcNr",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 114,
+            "widthType" : 0
+          }
         ],
         "clip" : true,
-        "codeComponentIdentifier" : ".\/Button.tsx_Button",
-        "codeComponentProps" : {
-          "disabled" : false,
-          "fullWidth" : false,
-          "kind" : "danger",
-          "size" : "large",
-          "text" : "Click",
-          "variant" : "contained"
-        },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
 
         ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
+        "fillColor" : "white",
+        "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 51,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 220,
         "heightType" : 0,
-        "id" : "cm_W60LZ9",
+        "id" : "SdnKHOcNr",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : 580,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 484,
         "locked" : false,
         "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "nzZYuwQJo",
@@ -53,11 +117,12 @@
         "radiusPerCorner" : false,
         "radiusTopLeft" : 0,
         "radiusTopRight" : 0,
+        "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 240,
+        "top" : 170,
         "visible" : true,
-        "width" : 114,
+        "width" : 331,
         "widthType" : 0
       }
     ],
@@ -79,5 +144,5 @@
     ],
     "visible" : false
   },
-  "version" : 54
+  "version" : 55
 }

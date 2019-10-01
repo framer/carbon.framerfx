@@ -7,6 +7,7 @@ import {
 } from "framer"
 //@ts-ignore
 import * as Carbon from "carbon-components-react"
+import { Add16, Search16 } from "@carbon/icons-react"
 import "carbon-components/css/carbon-components.css"
 
 //Create component and return it
@@ -64,5 +65,11 @@ addPropertyControls(Button, {
         title: "Size",
         options: ["default", "field", "small"],
         optionTitles: ["Default", "Field", "Small"],
+    },
+    icon: {
+        type: ControlType.Enum,
+        title: "Icon",
+        options: ["Add16", "Search16"],
+        optionTitles: ["Add", "Search", "Small"],
     },
 })
