@@ -21,6 +21,7 @@ TextInput.defaultProps = {
 };
 
 addPropertyControls(TextInput, {
+  type: { type: ControlType.Enum, options: ["text", "password"] },
   disabled: { type: ControlType.Boolean, defaultValue: false },
   labelText: { type: ControlType.String, defaultValue: "TextInput label" },
   helperText: {
