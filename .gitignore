@@ -13,3 +13,4 @@ dist
 node_modules
 .npmrc
 *.framerxproj
+.framer-lock
