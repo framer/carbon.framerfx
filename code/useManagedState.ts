@@ -5,10 +5,15 @@ export function useManagedState(value, onChange) {
 
   React.useEffect(() => {
     setValue(value);
-    if (onChange) {
-      onChange(value);
-    }
   }, [value]);
 
-  return [currentValue, setValue];
+  return [
+    currentValue,
+    newValue => {
+      setValue(newValue);
+      if (onChange) {
+        onChange(newValue);
+      }
+    }
+  ];
 }

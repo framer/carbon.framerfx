@@ -1,44 +1,45 @@
-import { Data, Override } from "framer"
+import { Data, Override } from "framer";
 
 const data = Data({
-    rotate: 0,
-    rotateY: 0,
-    toggle: true,
-})
+  email: undefined,
+  password: undefined
+});
 
-export function Hover(): Override {
-    return {
-        whileHover: { scale: 0.8 },
-    }
+const isValidEmail = (str: string) => {
+  console.log("is valid email", str);
+  return /\w+@\w+\.\w+/.test(str);
+};
+
+const isValidPassword = (str: string) => {
+  return str && str.length > 8;
+};
+
+export function FormStack(): Override {
+  return {
+    size: "auto"
+  };
 }
 
-export function Formstack(): Override {
-    return {
-        size: "auto",
-    }
+export function EmailField(): Override<any> {
+  return {
+    onChange: email => {
+      data.email = email;
+    },
+    invalid: data.email !== undefined && !isValidEmail(data.email)
+  };
 }
 
-export function Rotate(): Override {
-    return {
-        animate: { rotate: data.rotate },
-        onTap() {
-            data.rotate = data.rotate + 90
-        },
-    }
+export function PasswordField(): Override<any> {
+  return {
+    onChange: password => {
+      data.password = password;
+    },
+    invalid: data.password !== undefined && !isValidPassword(data.password)
+  };
 }
 
-export function FlipInput(): Override {
-    return {
-        onTap() {
-            const toggle = data.toggle
-            data.rotateY = toggle ? 180 : 0
-            data.toggle = !toggle
-        },
-    }
-}
-
-export function FlipOutput(): Override {
-    return {
-        animate: { rotateY: data.rotateY },
-    }
+export function SubmitFormButton(): Override {
+  return {
+    disabled: !isValidPassword(data.password) || !isValidEmail(data.email)
+  };
 }

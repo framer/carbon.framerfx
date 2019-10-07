@@ -3,13 +3,24 @@ import { addPropertyControls, ControlType } from "framer";
 import * as React from "react";
 import { useManagedState } from "./useManagedState";
 
-export function PasswordInput({ ["children"]: _, value, onChange, ...props }) {
+export function PasswordInput({
+  ["children"]: _,
+  value,
+  onChange,
+  invalid,
+  ...props
+}) {
   const [currentValue, setValue] = useManagedState(value, onChange);
+
+  const [focused, setFocused] = React.useState(false);
 
   return (
     <Carbon.TextInput.PasswordInput
       value={currentValue}
       onChange={e => setValue(e.target.value)}
+      onBlur={() => setFocused(false)}
+      onFocus={() => setFocused(true)}
+      invalid={invalid && !focused}
       {...props}
     ></Carbon.TextInput.PasswordInput>
   );
