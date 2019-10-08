@@ -1,3 +1,12 @@
 .bx--text-input__field-wrapper {
   width: 100%;
 }
+
+.bx--btn {
+  padding-right: 20px;
+}
+
+.bx--select,
+.bx--select-input {
+  width: 100%;
+}

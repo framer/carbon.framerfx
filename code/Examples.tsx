@@ -6,7 +6,6 @@ const data = Data({
 });
 
 const isValidEmail = (str: string) => {
-  console.log("is valid email", str);
   return /\w+@\w+\.\w+/.test(str);
 };
 
