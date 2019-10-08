@@ -14,6 +14,14 @@
   dependencies:
     "@carbon/icon-helpers" "10.4.0"
 
+"@framer/aroagb.google-sheet-component@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.framer.com/@framer/aroagb.google-sheet-component/-/@framer/aroagb.google-sheet-component-1.3.0.tgz#ea96314bfe153b86e700c1bed63df622afed6200"
+  integrity sha512-CTwXm3frZ2GGUfT+mg4oYCzjY9C2UhzFB9bgxXWMa8n50RIOcnwdkgXHUJIAkFdFEhQXybTrp8uiYgCTjThqjQ==
+  dependencies:
+    papaparse "^5.0.0"
+    react-papaparse "^1.0.5"
+
 "@types/prop-types@*":
   version "15.5.6"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
@@ -2705,6 +2713,16 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
 
+papaparse@^4.6.2:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/papaparse/-/papaparse-4.6.3.tgz#742e5eaaa97fa6c7e1358d2934d8f18f44aee781"
+  integrity sha512-LRq7BrHC2kHPBYSD50aKuw/B/dGcg29omyJbKWY3KsYUZU69RKwaBHu13jGmCYBtOc4odsLCrFyk6imfyNubJQ==
+
+papaparse@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/papaparse/-/papaparse-5.1.0.tgz#6228e8d96de99630ad017cf6522042319facc5eb"
+  integrity sha512-3jEYMiCc8qN7V5ffi2BTS2mRauKxCu5AIED6DxbjnHhIm7OY7fzKYkndfPlHWaaKUDCTml5XTU6V+hiuxGlZuw==
+
 parallel-transform@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/parallel-transform/-/parallel-transform-1.1.0.tgz#d410f065b05da23081fcd10f28854c29bda33b06"
@@ -3052,6 +3070,13 @@ react-is@^16.8.6:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
+
+react-papaparse@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-papaparse/-/react-papaparse-1.0.5.tgz#6f020b03b0346a8a31c322eb84d99759f9b34a87"
+  integrity sha512-aqauXjVCc11JkBTlOQEzAL7ZLC54xGO+4ggAbaHQevCX9+2ICFnuTbWbzBWrBJfb+Bx5qCSs66XEcO+BlflTRA==
+  dependencies:
+    papaparse "^4.6.2"
 
 react@^16.8:
   version "16.8.6"

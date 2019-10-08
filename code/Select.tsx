@@ -3,7 +3,7 @@ import * as React from "react"
 import { addPropertyControls, ControlType, Stack } from "framer"
 import { useManagedState } from "./useManagedState"
 
-export function TextInput({
+export function Select({
     ["children"]: _,
     value,
     onChange,
@@ -15,25 +15,26 @@ export function TextInput({
     const [focused, setFocused] = React.useState(false)
 
     return (
-        <Carbon.TextInput
-            value={currentValue}
+        <Carbon.Select
             onChange={e => setValue(e.target.value)}
             onBlur={() => setFocused(false)}
             onFocus={() => setFocused(true)}
             invalid={invalid && !focused}
             {...props}
-        ></Carbon.TextInput>
+        >
+            <Carbon.SelectItem value={props.value} text={props.value} />
+        </Carbon.Select>
     )
 }
 
-TextInput.defaultProps = {
+Select.defaultProps = {
     width: 135,
     height: 35,
 }
 
-addPropertyControls(TextInput, {
+addPropertyControls(Select, {
     disabled: { type: ControlType.Boolean, defaultValue: false },
-    labelText: { type: ControlType.String, defaultValue: "TextInput label" },
+    labelText: { type: ControlType.String, defaultValue: "Select label" },
     helperText: {
         type: ControlType.String,
         defaultValue: "",
@@ -47,4 +48,12 @@ addPropertyControls(TextInput, {
         defaultValue: "invalid text",
     },
     invalid: { type: ControlType.Boolean, defaultValue: false },
+    value: {
+        type: ControlType.Array,
+        propertyControl: {
+            type: ControlType.String,
+        },
+        defaultValue: ["Paris", "New York"],
+        title: "Value",
+    },
 })

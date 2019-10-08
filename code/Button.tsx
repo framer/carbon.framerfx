@@ -12,7 +12,7 @@ import "carbon-components/css/carbon-components.css"
 
 //Create component and return it
 export function Button(props) {
-    const { disabled, kind, size, text, ...rest } = props
+    const { disabled, kind, size, text, fullWidth, ...rest } = props
 
     return (
         <Stack
@@ -26,6 +26,7 @@ export function Button(props) {
                     disabled,
                     kind,
                     size,
+                    fullWidth,
                 }}
             >
                 {text}
@@ -72,4 +73,5 @@ addPropertyControls(Button, {
         options: ["Add16", "Search16"],
         optionTitles: ["Add", "Search", "Small"],
     },
+    fullWidth: { type: ControlType.Boolean, title: "Full Width" },
 })
