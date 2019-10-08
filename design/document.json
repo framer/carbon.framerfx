@@ -15,8 +15,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.090725806451612906,
-            "centerAnchorY" : 0.17499999999999999,
+            "centerAnchorX" : 0.15405405405405406,
+            "centerAnchorY" : 0.18189655172413793,
             "children" : [
 
             ],
@@ -24,8 +24,6 @@
             "codeComponentIdentifier" : ".\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "fullWidth" : false,
-              "icon" : "Add16",
               "kind" : "primary",
               "size" : "small",
               "text" : "Click"
@@ -49,7 +47,7 @@
             "id" : "cm_W60LZ9",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 10,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -65,7 +63,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 74,
+            "top" : 78,
             "visible" : true,
             "width" : 115,
             "widthType" : 0
@@ -74,8 +72,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.10954301075268817,
-            "centerAnchorY" : 0.071551724137931039,
+            "centerAnchorX" : 0.17207207207207206,
+            "centerAnchorY" : 0.07844827586206897,
             "children" : [
 
             ],
@@ -105,7 +103,7 @@
             "id" : "ZRo5XAz7J",
             "intrinsicHeight" : 35,
             "intrinsicWidth" : 135,
-            "left" : 14,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -121,7 +119,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 24,
+            "top" : 28,
             "visible" : true,
             "width" : 135,
             "widthType" : 0
@@ -130,8 +128,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.15188172043010753,
-            "centerAnchorY" : 0.30603448275862066,
+            "centerAnchorX" : 0.23603603603603604,
+            "centerAnchorY" : 0.31293103448275861,
             "children" : [
 
             ],
@@ -164,7 +162,7 @@
             "id" : "qg0nyEyR9",
             "intrinsicHeight" : 35,
             "intrinsicWidth" : 135,
-            "left" : 10,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -180,7 +178,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 144,
+            "top" : 148,
             "visible" : true,
             "width" : 206,
             "widthType" : 0
@@ -188,9 +186,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.32728494623655913,
-            "centerAnchorY" : 0.49913793103448278,
+            "bottom" : 230,
+            "centerAnchorX" : 0.48918918918918919,
+            "centerAnchorY" : 0.50603448275862073,
             "children" : [
 
             ],
@@ -211,7 +209,7 @@
                 {
                   "enabled" : true,
                   "type" : "string",
-                  "value" : "ssdfsdfsdfwsdfsdfsdfsdfsdfsdfsdfedfsdfgsefgewrtgertgh"
+                  "value" : "third"
                 }
               ],
               "tabs" : [
@@ -237,7 +235,7 @@
             "id" : "NHfi9UEC1",
             "intrinsicHeight" : 35,
             "intrinsicWidth" : 135,
-            "left" : 0,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -251,7 +249,7 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 40,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
@@ -261,9 +259,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 140,
-            "centerAnchorX" : 0.176747311827957,
-            "centerAnchorY" : 0.69051724137931036,
+            "bottom" : 136,
+            "centerAnchorX" : 0.28738738738738739,
+            "centerAnchorY" : 0.69741379310344831,
             "children" : [
 
             ],
@@ -296,7 +294,7 @@
             "id" : "DIjAXCUT1",
             "intrinsicHeight" : 35,
             "intrinsicWidth" : 135,
-            "left" : 0,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -320,9 +318,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 32,
-            "centerAnchorX" : 0.20026881720430106,
-            "centerAnchorY" : 0.87068965517241381,
+            "bottom" : 28,
+            "centerAnchorX" : 0.30090090090090088,
+            "centerAnchorY" : 0.87758620689655176,
             "children" : [
 
             ],
@@ -330,12 +328,10 @@
             "codeComponentIdentifier" : ".\/Select.tsx_Select",
             "codeComponentProps" : {
               "disabled" : false,
-              "helperText" : "",
               "invalid" : false,
               "invalidText" : "invalid text",
-              "labelText" : "Select label",
               "placeholder" : "placeholder",
-              "value" : [
+              "values" : [
                 {
                   "enabled" : true,
                   "type" : "string",
@@ -367,7 +363,7 @@
             "id" : "XYbTrP53p",
             "intrinsicHeight" : 35,
             "intrinsicWidth" : 135,
-            "left" : 10,
+            "left" : 28,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -396,7 +392,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "white",
+        "fillColor" : "rgba(255, 255, 255, 0.48)",
         "fillEnabled" : true,
         "fillImage" : null,
         "fillImageOriginalName" : null,
@@ -429,19 +425,19 @@
         "originalid" : null,
         "parentid" : "nzZYuwQJo",
         "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
+        "radius" : 17,
+        "radiusBottomLeft" : 17,
+        "radiusBottomRight" : 17,
         "radiusIsRelative" : false,
         "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
+        "radiusTopLeft" : 17,
+        "radiusTopRight" : 17,
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
         "top" : 343,
         "visible" : true,
-        "width" : 744,
+        "width" : 555,
         "widthType" : 0
       },
       {
@@ -466,8 +462,6 @@
             "codeComponentIdentifier" : ".\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "fullWidth" : false,
-              "icon" : "Add16",
               "kind" : "primary",
               "size" : "small",
               "text" : "Click"
@@ -772,12 +766,10 @@
             "codeComponentIdentifier" : ".\/Select.tsx_Select",
             "codeComponentProps" : {
               "disabled" : false,
-              "helperText" : "",
               "invalid" : false,
               "invalidText" : "invalid text",
-              "labelText" : "Select label",
               "placeholder" : "placeholder",
-              "value" : [
+              "values" : [
                 {
                   "enabled" : true,
                   "type" : "string",
@@ -1024,6 +1016,15 @@
               "type" : "unstyled"
             }
           ],
+          "cached" : {
+            "html" : "<div data-offset-key=\"bs4ek-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"bs4ek-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">f<\/span><\/span><\/div>",
+            "os" : "macos 10_14 framerx",
+            "size" : {
+              "height" : 19,
+              "width" : 7
+            },
+            "width" : 0
+          },
           "entityMap" : {
 
           }
@@ -1499,6 +1500,69 @@
             "visible" : true,
             "width" : 1440,
             "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 276,
+            "centerAnchorX" : 0.50069444444444444,
+            "centerAnchorY" : 0.62337889940413604,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : "framer\/Stack",
+            "codeComponentProps" : {
+              "alignment" : "center",
+              "direction" : "vertical",
+              "distribution" : "space-evenly",
+              "gap" : 10,
+              "padding" : 0,
+              "paddingBottom" : 0,
+              "paddingLeft" : 0,
+              "paddingPerSide" : false,
+              "paddingRight" : 0,
+              "paddingTop" : 0
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 1597,
+            "heightType" : 0,
+            "id" : "Otr77AT4e",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "qrkzQscCF",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : -2,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 1442,
+            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -1522,7 +1586,7 @@
         "guidesY" : [
 
         ],
-        "height" : 2653,
+        "height" : 2853,
         "heightType" : 0,
         "id" : "qrkzQscCF",
         "intrinsicHeight" : null,
@@ -2022,77 +2086,6 @@
             "visible" : true,
             "width" : 1440,
             "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : 276,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.63267998492272903,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : "@framer\/aroagb.google-sheet-component\/.\/GoogleSheets.tsx_VerticalGoogleSheet",
-            "codeComponentProps" : {
-              "alignment" : "end",
-              "component" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "nAEQzZqTf"
-                }
-              ],
-              "direction" : "vertical",
-              "distribution" : "start",
-              "gap" : 10,
-              "padding" : 0,
-              "paddingBottom" : 0,
-              "paddingLeft" : 0,
-              "paddingPerSide" : false,
-              "paddingRight" : 0,
-              "paddingTop" : 0,
-              "url" : "https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vRsGZmoQxDnWaE2xa_R6PWdpxcrdEESYJMHt3bBPp3cewuZsrb0FSP8n2JikS6MSggaRO1bcyyFlRju\/pub?output=tsv"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 1397,
-            "heightType" : 0,
-            "id" : "oXy5DJCdI",
-            "intrinsicHeight" : 810,
-            "intrinsicWidth" : 375,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "vOGxGbvMK",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 0,
-            "rotation" : 0,
-            "top" : null,
-            "visible" : true,
-            "width" : 1440,
-            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -2116,7 +2109,7 @@
         "guidesY" : [
 
         ],
-        "height" : 2653,
+        "height" : 2853,
         "heightType" : 0,
         "id" : "vOGxGbvMK",
         "intrinsicHeight" : null,
@@ -2663,438 +2656,6 @@
         "top" : 1336,
         "visible" : true,
         "width" : 1440,
-        "widthType" : 0
-      },
-      {
-        "__class" : "TextNode",
-        "autoSize" : true,
-        "bottom" : null,
-        "centerAnchorX" : -0.00034722222222222224,
-        "centerAnchorY" : 0.21739130434782608,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "height" : 30,
-        "heightType" : 0,
-        "id" : "bN4noXAgt",
-        "isTarget" : true,
-        "left" : 421,
-        "locked" : false,
-        "name" : "Plan",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "nzZYuwQJo",
-        "right" : null,
-        "rotation" : 0,
-        "styledText" : {
-          "__class" : "StyledTextDraft",
-          "blocks" : [
-            {
-              "data" : {
-                "emptyStyle" : [
-                  "FONT:__SF-UI-Text-Regular__",
-                  "LETTERSPACING:0",
-                  "LINEHEIGHT:1.2",
-                  "SIZE:25",
-                  "COLOR:rgba(13, 108, 255, 1.00)"
-                ]
-              },
-              "depth" : 0,
-              "entityRanges" : [
-
-              ],
-              "inlineStyleRanges" : [
-                {
-                  "length" : 10,
-                  "offset" : 0,
-                  "style" : "FONT:__SF-UI-Text-Regular__"
-                },
-                {
-                  "length" : 10,
-                  "offset" : 0,
-                  "style" : "LETTERSPACING:0"
-                },
-                {
-                  "length" : 10,
-                  "offset" : 0,
-                  "style" : "LINEHEIGHT:1.2"
-                },
-                {
-                  "length" : 10,
-                  "offset" : 0,
-                  "style" : "SIZE:25"
-                },
-                {
-                  "length" : 10,
-                  "offset" : 0,
-                  "style" : "COLOR:rgba(13, 108, 255, 1.00)"
-                }
-              ],
-              "key" : "cbf5m",
-              "text" : "Enterprise",
-              "type" : "unstyled"
-            }
-          ],
-          "cached" : {
-            "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgba(13, 108, 255, 1.00);font-size:25px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Enterprise<\/span><\/span><\/div>",
-            "os" : "macos 10_14 framerx",
-            "size" : {
-              "height" : 30,
-              "width" : 115
-            },
-            "width" : 0
-          },
-          "entityMap" : {
-
-          }
-        },
-        "top" : 1658,
-        "visible" : true,
-        "width" : 115,
-        "widthType" : 0
-      },
-      {
-        "__class" : "TextNode",
-        "autoSize" : false,
-        "bottom" : null,
-        "centerAnchorX" : 0.11979166666666667,
-        "centerAnchorY" : 0.38537549407114624,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "height" : 20,
-        "heightType" : 0,
-        "id" : "tlxZ4cqTl",
-        "isTarget" : true,
-        "left" : 421,
-        "locked" : false,
-        "name" : "Billing_options",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "nzZYuwQJo",
-        "right" : null,
-        "rotation" : 0,
-        "styledText" : {
-          "__class" : "StyledTextDraft",
-          "blocks" : [
-            {
-              "data" : {
-                "emptyStyle" : [
-                  "LINEHEIGHT:1.2",
-                  "SIZE:17",
-                  "FONT:GF;IBM Plex Sans Condensed-700",
-                  "LETTERSPACING:0.1",
-                  "COLOR:rgba(111, 111, 111, 1.00)"
-                ]
-              },
-              "depth" : 0,
-              "entityRanges" : [
-
-              ],
-              "inlineStyleRanges" : [
-                {
-                  "length" : 35,
-                  "offset" : 0,
-                  "style" : "LINEHEIGHT:1.2"
-                },
-                {
-                  "length" : 35,
-                  "offset" : 0,
-                  "style" : "SIZE:17"
-                },
-                {
-                  "length" : 35,
-                  "offset" : 0,
-                  "style" : "FONT:GF;IBM Plex Sans Condensed-700"
-                },
-                {
-                  "length" : 35,
-                  "offset" : 0,
-                  "style" : "LETTERSPACING:0.1"
-                },
-                {
-                  "length" : 35,
-                  "offset" : 0,
-                  "style" : "COLOR:rgba(111, 111, 111, 1.00)"
-                }
-              ],
-              "key" : "cbf5m",
-              "text" : "Billed per 100K API calls per month",
-              "type" : "unstyled"
-            }
-          ],
-          "entityMap" : {
-
-          }
-        },
-        "top" : 1702,
-        "visible" : true,
-        "width" : 270,
-        "widthType" : 0
-      },
-      {
-        "__class" : "TextNode",
-        "autoSize" : false,
-        "bottom" : null,
-        "centerAnchorX" : 0.10833333333333334,
-        "centerAnchorY" : 0.37351778656126483,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "height" : 20,
-        "heightType" : 0,
-        "id" : "TIyQrMNBs",
-        "isTarget" : true,
-        "left" : 421,
-        "locked" : false,
-        "name" : "price",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "nzZYuwQJo",
-        "right" : null,
-        "rotation" : 0,
-        "styledText" : {
-          "__class" : "StyledTextDraft",
-          "blocks" : [
-            {
-              "data" : {
-                "emptyStyle" : [
-                  "LINEHEIGHT:1.2",
-                  "SIZE:17",
-                  "FONT:GF;IBM Plex Sans Condensed-500",
-                  "LETTERSPACING:0",
-                  "COLOR:rgba(107, 107, 107, 1.00)"
-                ]
-              },
-              "depth" : 0,
-              "entityRanges" : [
-
-              ],
-              "inlineStyleRanges" : [
-                {
-                  "length" : 27,
-                  "offset" : 0,
-                  "style" : "LINEHEIGHT:1.2"
-                },
-                {
-                  "length" : 27,
-                  "offset" : 0,
-                  "style" : "SIZE:17"
-                },
-                {
-                  "length" : 27,
-                  "offset" : 0,
-                  "style" : "FONT:GF;IBM Plex Sans Condensed-500"
-                },
-                {
-                  "length" : 27,
-                  "offset" : 0,
-                  "style" : "LETTERSPACING:0"
-                },
-                {
-                  "length" : 27,
-                  "offset" : 0,
-                  "style" : "COLOR:rgba(107, 107, 107, 1.00)"
-                }
-              ],
-              "key" : "cbf5m",
-              "text" : "$100.00 USD \/100K API calls",
-              "type" : "unstyled"
-            }
-          ],
-          "entityMap" : {
-
-          }
-        },
-        "top" : 1737,
-        "visible" : true,
-        "width" : 219,
-        "widthType" : 0
-      },
-      {
-        "__class" : "TextNode",
-        "autoSize" : true,
-        "bottom" : null,
-        "centerAnchorX" : -0.012500000000000001,
-        "centerAnchorY" : 0.53359683794466406,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "height" : 20,
-        "heightType" : 0,
-        "id" : "QUIPalStR",
-        "isTarget" : true,
-        "left" : 421,
-        "locked" : false,
-        "name" : "name_plan_details",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "nzZYuwQJo",
-        "right" : null,
-        "rotation" : 0,
-        "styledText" : {
-          "__class" : "StyledTextDraft",
-          "blocks" : [
-            {
-              "data" : {
-                "emptyStyle" : [
-                  "LINEHEIGHT:1.2",
-                  "SIZE:17",
-                  "FONT:GF;IBM Plex Sans Condensed-700",
-                  "LETTERSPACING:0.1",
-                  "COLOR:rgba(50, 50, 50, 1.00)"
-                ]
-              },
-              "depth" : 0,
-              "entityRanges" : [
-
-              ],
-              "inlineStyleRanges" : [
-                {
-                  "length" : 23,
-                  "offset" : 0,
-                  "style" : "LINEHEIGHT:1.2"
-                },
-                {
-                  "length" : 23,
-                  "offset" : 0,
-                  "style" : "SIZE:17"
-                },
-                {
-                  "length" : 23,
-                  "offset" : 0,
-                  "style" : "FONT:GF;IBM Plex Sans Condensed-700"
-                },
-                {
-                  "length" : 23,
-                  "offset" : 0,
-                  "style" : "LETTERSPACING:0.1"
-                },
-                {
-                  "length" : 23,
-                  "offset" : 0,
-                  "style" : "COLOR:rgba(50, 50, 50, 1.00)"
-                }
-              ],
-              "key" : "cbf5m",
-              "text" : "Enterprise plan details",
-              "type" : "unstyled"
-            }
-          ],
-          "cached" : {
-            "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(50, 50, 50, 1.00);font-size:17px;letter-spacing:0.1px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">Enterprise plan details<\/span><\/span><\/div>",
-            "os" : "macos 10_14 framerx",
-            "size" : {
-              "height" : 20,
-              "width" : 168
-            },
-            "width" : 0
-          },
-          "entityMap" : {
-
-          }
-        },
-        "top" : 1771,
-        "visible" : true,
-        "width" : 168,
-        "widthType" : 0
-      },
-      {
-        "__class" : "TextNode",
-        "autoSize" : false,
-        "bottom" : null,
-        "centerAnchorX" : 0.28506944444444443,
-        "centerAnchorY" : 0.7865612648221344,
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "height" : 94,
-        "heightType" : 0,
-        "id" : "ZiZnm8D0W",
-        "isTarget" : true,
-        "left" : 421,
-        "locked" : false,
-        "name" : "plan_details",
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "nzZYuwQJo",
-        "right" : null,
-        "rotation" : 0,
-        "styledText" : {
-          "__class" : "StyledTextDraft",
-          "blocks" : [
-            {
-              "data" : {
-                "emptyStyle" : [
-                  "LINEHEIGHT:1.2",
-                  "SIZE:17",
-                  "FONT:GF;IBM Plex Sans Condensed-regular",
-                  "LETTERSPACING:0.3",
-                  "COLOR:rgba(77, 77, 77, 1.00)"
-                ]
-              },
-              "depth" : 0,
-              "entityRanges" : [
-
-              ],
-              "inlineStyleRanges" : [
-                {
-                  "length" : 127,
-                  "offset" : 0,
-                  "style" : "LINEHEIGHT:1.2"
-                },
-                {
-                  "length" : 127,
-                  "offset" : 0,
-                  "style" : "SIZE:17"
-                },
-                {
-                  "length" : 127,
-                  "offset" : 0,
-                  "style" : "FONT:GF;IBM Plex Sans Condensed-regular"
-                },
-                {
-                  "length" : 127,
-                  "offset" : 0,
-                  "style" : "LETTERSPACING:0.3"
-                },
-                {
-                  "length" : 127,
-                  "offset" : 0,
-                  "style" : "COLOR:rgba(77, 77, 77, 1.00)"
-                }
-              ],
-              "key" : "cbf5m",
-              "text" : "An enterprise-grade, comprehensive API solution for enterprises and cross department projects with flexibility pay as you grow.",
-              "type" : "unstyled"
-            }
-          ],
-          "cached" : {
-            "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(77, 77, 77, 1.00);font-size:17px;letter-spacing:0.3px;line-height:1.2;font-weight:400;font-style:normal\"><span data-text=\"true\">An enterprise-grade, comprehensive API solution for enterprises and cross department projects with flexibility pay as you grow.<\/span><\/span><\/div>",
-            "os" : "macos 10_14 framerx",
-            "size" : {
-              "height" : 80,
-              "width" : 271
-            },
-            "width" : 270
-          },
-          "entityMap" : {
-
-          }
-        },
-        "top" : 1805,
-        "visible" : true,
-        "width" : 270,
         "widthType" : 0
       },
       {
@@ -3864,6 +3425,15 @@
               "type" : "unstyled"
             }
           ],
+          "cached" : {
+            "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(107, 107, 107, 1.00);font-size:17px;letter-spacing:0px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">$100.00 USD \/100K API calls<\/span><\/span><\/div>",
+            "os" : "macos 10_14 framerx",
+            "size" : {
+              "height" : 20,
+              "width" : 220
+            },
+            "width" : 219
+          },
           "entityMap" : {
 
           }
@@ -3945,6 +3515,15 @@
               "type" : "unstyled"
             }
           ],
+          "cached" : {
+            "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(111, 111, 111, 1.00);font-size:17px;letter-spacing:0.1px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">Billed per 100K API calls per month<\/span><\/span><\/div>",
+            "os" : "macos 10_14 framerx",
+            "size" : {
+              "height" : 20,
+              "width" : 271
+            },
+            "width" : 270
+          },
           "entityMap" : {
 
           }
@@ -9936,6 +9515,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"2u6kb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2u6kb-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:20px;letter-spacing:-0.6px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">Create a free account<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 24,
+                      "width" : 184
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -10017,6 +9605,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"785g2-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"785g2-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:12px;letter-spacing:0px;line-height:1.2;font-weight:300;font-style:normal\"><span data-text=\"true\">Join us in the cloud and start building today.<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 14,
+                      "width" : 234
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -10122,6 +9719,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Email<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 40
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -10349,6 +9955,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">First Name<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 80
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -10510,6 +10125,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Last name<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 76
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -10671,6 +10295,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Drag and Drop<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 107
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -10832,6 +10465,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Password<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 71
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -11100,6 +10742,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"bl6g7-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"bl6g7-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:rgba(20, 41, 52, 1.00);font-size:14px;letter-spacing:-0.1px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">IBM may use my contact data to keep me informed of products, services and offerings:<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 16,
+                      "width" : 616
+                    },
+                    "width" : 615
+                  },
                   "entityMap" : {
 
                   }
@@ -12348,6 +11999,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"2u6kb-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2u6kb-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:20px;letter-spacing:-0.6px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">Create a free account<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 24,
+                      "width" : 184
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -12429,6 +12089,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"785g2-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"785g2-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 0%);font-size:12px;letter-spacing:0px;line-height:1.2;font-weight:300;font-style:normal\"><span data-text=\"true\">Join us in the cloud and start building today.<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 14,
+                      "width" : 234
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -12534,6 +12203,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Email<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 40
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -12761,6 +12439,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">First Name<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 80
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -12922,6 +12609,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"39h6n-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"39h6n-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Last name<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_14 framerx",
+                        "size" : {
+                          "height" : 19,
+                          "width" : 76
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -12988,147 +12684,56 @@
                 "widthType" : 0
               },
               {
-                "__class" : "FrameNode",
+                "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
-                "borderBottom" : 1,
-                "borderColor" : "rgba(34, 34, 34, 0.5)",
-                "borderEnabled" : 1,
-                "borderLeft" : 1,
-                "borderPerSide" : false,
-                "borderRight" : 1,
-                "borderStyle" : "dotted",
-                "borderTop" : 1,
-                "borderWidth" : 1,
                 "bottom" : null,
                 "centerAnchorX" : 1.325,
                 "centerAnchorY" : 0.33111322549952427,
                 "children" : [
-                  {
-                    "__class" : "TextNode",
-                    "autoSize" : true,
-                    "bottom" : null,
-                    "centerAnchorX" : 0.49677419354838709,
-                    "centerAnchorY" : 0.48255813953488375,
-                    "codeOverrideEnabled" : false,
-                    "constraintsLocked" : false,
-                    "exportOptions" : [
 
-                    ],
-                    "height" : 19,
-                    "heightType" : 0,
-                    "id" : "FXorYRokF",
-                    "isTarget" : false,
-                    "left" : 258,
-                    "locked" : false,
-                    "name" : null,
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "lUn84nAOd",
-                    "right" : null,
-                    "rotation" : 0,
-                    "styledText" : {
-                      "__class" : "StyledTextDraft",
-                      "blocks" : [
-                        {
-                          "data" : {
-                            "emptyStyle" : [
-                              "FONT:__SF-UI-Text-Regular__",
-                              "COLOR:rgb(0, 0, 0)",
-                              "SIZE:16",
-                              "LETTERSPACING:0",
-                              "LINEHEIGHT:1.2",
-                              "ALIGN:center"
-                            ]
-                          },
-                          "depth" : 0,
-                          "entityRanges" : [
-
-                          ],
-                          "inlineStyleRanges" : [
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "FONT:__SF-UI-Text-Regular__"
-                            },
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "COLOR:rgb(0, 0, 0)"
-                            },
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "SIZE:16"
-                            },
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "LETTERSPACING:0"
-                            },
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "LINEHEIGHT:1.2"
-                            },
-                            {
-                              "length" : 13,
-                              "offset" : 0,
-                              "style" : "ALIGN:center"
-                            }
-                          ],
-                          "key" : "39h6n",
-                          "text" : "Drag and Drop",
-                          "type" : "unstyled"
-                        }
-                      ],
-                      "entityMap" : {
-
-                      }
-                    },
-                    "top" : null,
-                    "visible" : true,
-                    "width" : 107,
-                    "widthType" : 0
-                  }
                 ],
-                "clip" : false,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Select.tsx_Select",
+                "codeComponentProps" : {
+                  "disabled" : false,
+                  "invalid" : false,
+                  "invalidText" : "Please select an item from the list",
+                  "placeholder" : "Select a country",
+                  "values" : [
+                    {
+                      "enabled" : true,
+                      "type" : "string",
+                      "value" : "Paris"
+                    },
+                    {
+                      "enabled" : true,
+                      "type" : "string",
+                      "value" : "New York"
+                    }
+                  ]
+                },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "deviceType" : null,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "hsla(0, 0%, 100%, 0.5)",
-                "fillEnabled" : true,
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
                 "fillImage" : null,
                 "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
-                "guidesX" : [
-
-                ],
-                "guidesY" : [
-
-                ],
                 "height" : 86,
                 "heightType" : 0,
-                "id" : "lUn84nAOd",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "isExternalMaster" : null,
-                "isMaster" : false,
-                "isTarget" : false,
+                "id" : "EyDbt4F7r",
+                "intrinsicHeight" : 65,
+                "intrinsicWidth" : 400,
                 "left" : null,
                 "locked" : false,
-                "name" : "error size",
-                "navigationTarget" : null,
-                "navigationTransition" : "push",
-                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-                "navigationTransitionDirection" : "left",
+                "name" : null,
                 "opacity" : 1,
                 "originalid" : null,
                 "parentid" : "Rl40Oc73x",
@@ -13140,7 +12745,6 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "replicaInfo" : null,
                 "right" : null,
                 "rotation" : 0,
                 "top" : null,
@@ -13149,147 +12753,46 @@
                 "widthType" : 0
               },
               {
-                "__class" : "FrameNode",
+                "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
-                "borderBottom" : 1,
-                "borderColor" : "rgba(34, 34, 34, 0.5)",
-                "borderEnabled" : 1,
-                "borderLeft" : 1,
-                "borderPerSide" : false,
-                "borderRight" : 1,
-                "borderStyle" : "dotted",
-                "borderTop" : 1,
-                "borderWidth" : 1,
                 "bottom" : null,
                 "centerAnchorX" : 1.325,
                 "centerAnchorY" : 0.33111322549952427,
                 "children" : [
-                  {
-                    "__class" : "TextNode",
-                    "autoSize" : true,
-                    "bottom" : null,
-                    "centerAnchorX" : 0.49677419354838709,
-                    "centerAnchorY" : 0.48255813953488375,
-                    "codeOverrideEnabled" : false,
-                    "constraintsLocked" : false,
-                    "exportOptions" : [
 
-                    ],
-                    "height" : 19,
-                    "heightType" : 0,
-                    "id" : "DQx2lyD7O",
-                    "isTarget" : false,
-                    "left" : 274,
-                    "locked" : false,
-                    "name" : null,
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "jsBBJuqHm",
-                    "right" : null,
-                    "rotation" : 0,
-                    "styledText" : {
-                      "__class" : "StyledTextDraft",
-                      "blocks" : [
-                        {
-                          "data" : {
-                            "emptyStyle" : [
-                              "FONT:__SF-UI-Text-Regular__",
-                              "COLOR:rgb(0, 0, 0)",
-                              "SIZE:16",
-                              "LETTERSPACING:0",
-                              "LINEHEIGHT:1.2",
-                              "ALIGN:center"
-                            ]
-                          },
-                          "depth" : 0,
-                          "entityRanges" : [
-
-                          ],
-                          "inlineStyleRanges" : [
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "FONT:__SF-UI-Text-Regular__"
-                            },
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "COLOR:rgb(0, 0, 0)"
-                            },
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "SIZE:16"
-                            },
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "LETTERSPACING:0"
-                            },
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "LINEHEIGHT:1.2"
-                            },
-                            {
-                              "length" : 8,
-                              "offset" : 0,
-                              "style" : "ALIGN:center"
-                            }
-                          ],
-                          "key" : "39h6n",
-                          "text" : "Password",
-                          "type" : "unstyled"
-                        }
-                      ],
-                      "entityMap" : {
-
-                      }
-                    },
-                    "top" : null,
-                    "visible" : true,
-                    "width" : 71,
-                    "widthType" : 0
-                  }
                 ],
-                "clip" : false,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/PasswordInput.tsx_PasswordInput",
+                "codeComponentProps" : {
+                  "disabled" : false,
+                  "helperText" : "",
+                  "invalid" : false,
+                  "invalidText" : "invalid text",
+                  "labelText" : "TextInput label",
+                  "placeholder" : "placeholder"
+                },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "deviceType" : null,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "hsla(0, 0%, 100%, 0.5)",
-                "fillEnabled" : true,
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
                 "fillImage" : null,
                 "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
-                "guidesX" : [
-
-                ],
-                "guidesY" : [
-
-                ],
                 "height" : 86,
                 "heightType" : 0,
-                "id" : "jsBBJuqHm",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "isExternalMaster" : null,
-                "isMaster" : false,
-                "isTarget" : false,
+                "id" : "cdZNu5pbw",
+                "intrinsicHeight" : 65,
+                "intrinsicWidth" : 135,
                 "left" : null,
                 "locked" : false,
-                "name" : "error size",
-                "navigationTarget" : null,
-                "navigationTransition" : "push",
-                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-                "navigationTransitionDirection" : "left",
+                "name" : null,
                 "opacity" : 1,
                 "originalid" : null,
                 "parentid" : "Rl40Oc73x",
@@ -13301,7 +12804,6 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "replicaInfo" : null,
                 "right" : null,
                 "rotation" : 0,
                 "top" : null,
@@ -13512,6 +13014,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<div data-offset-key=\"bl6g7-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"bl6g7-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans&quot;, sans-serif;-webkit-text-fill-color:rgba(20, 41, 52, 1.00);font-size:14px;letter-spacing:-0.1px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">IBM may use my contact data to keep me informed of products, services and offerings:<\/span><\/span><\/div>",
+                    "os" : "macos 10_14 framerx",
+                    "size" : {
+                      "height" : 16,
+                      "width" : 616
+                    },
+                    "width" : 615
+                  },
                   "entityMap" : {
 
                   }
@@ -14566,6 +14077,15 @@
               "type" : "unstyled"
             }
           ],
+          "cached" : {
+            "html" : "<div data-offset-key=\"bs4ek-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"bs4ek-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">f<\/span><\/span><\/div>",
+            "os" : "macos 10_14 framerx",
+            "size" : {
+              "height" : 19,
+              "width" : 7
+            },
+            "width" : 0
+          },
           "entityMap" : {
 
           }
@@ -18745,12 +18265,10 @@
             "codeComponentIdentifier" : ".\/Select.tsx_Select",
             "codeComponentProps" : {
               "disabled" : false,
-              "helperText" : "",
               "invalid" : false,
               "invalidText" : "invalid text",
-              "labelText" : "Select label",
               "placeholder" : "placeholder",
-              "value" : [
+              "values" : [
                 {
                   "enabled" : true,
                   "type" : "string",
@@ -18760,16 +18278,6 @@
                   "enabled" : true,
                   "type" : "string",
                   "value" : "New York"
-                },
-                {
-                  "enabled" : true,
-                  "type" : "string",
-                  "value" : ""
-                },
-                {
-                  "enabled" : true,
-                  "type" : "string",
-                  "value" : ""
                 }
               ]
             },
@@ -19390,6 +18898,521 @@
         "top" : 6447,
         "visible" : true,
         "width" : 1440,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0.5,
+        "centerAnchorY" : 0.57068965517241377,
+        "children" : [
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "bottom" : null,
+            "centerAnchorX" : 0.30090090090090088,
+            "centerAnchorY" : 0.39137931034482759,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 94,
+            "heightType" : 0,
+            "id" : "ZiZnm8D0W",
+            "isTarget" : true,
+            "left" : 32,
+            "locked" : false,
+            "name" : "plan_details",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Vv_E0Ssia",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "LINEHEIGHT:1.2",
+                      "SIZE:17",
+                      "FONT:GF;IBM Plex Sans Condensed-regular",
+                      "LETTERSPACING:0.3",
+                      "COLOR:rgba(77, 77, 77, 1.00)"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 127,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 127,
+                      "offset" : 0,
+                      "style" : "SIZE:17"
+                    },
+                    {
+                      "length" : 127,
+                      "offset" : 0,
+                      "style" : "FONT:GF;IBM Plex Sans Condensed-regular"
+                    },
+                    {
+                      "length" : 127,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0.3"
+                    },
+                    {
+                      "length" : 127,
+                      "offset" : 0,
+                      "style" : "COLOR:rgba(77, 77, 77, 1.00)"
+                    }
+                  ],
+                  "key" : "cbf5m",
+                  "text" : "An enterprise-grade, comprehensive API solution for enterprises and cross department projects with flexibility pay as you grow.",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(77, 77, 77, 1.00);font-size:17px;letter-spacing:0.3px;line-height:1.2;font-weight:400;font-style:normal\"><span data-text=\"true\">An enterprise-grade, comprehensive API solution for enterprises and cross department projects with flexibility pay as you grow.<\/span><\/span><\/div>",
+                "os" : "macos 10_14 framerx",
+                "size" : {
+                  "height" : 80,
+                  "width" : 271
+                },
+                "width" : 270
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 180,
+            "visible" : true,
+            "width" : 270,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : true,
+            "bottom" : null,
+            "centerAnchorX" : 0.20900900900900901,
+            "centerAnchorY" : 0.26896551724137929,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 20,
+            "heightType" : 0,
+            "id" : "QUIPalStR",
+            "isTarget" : true,
+            "left" : 32,
+            "locked" : false,
+            "name" : "name_plan_details",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Vv_E0Ssia",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "LINEHEIGHT:1.2",
+                      "SIZE:17",
+                      "FONT:GF;IBM Plex Sans Condensed-700",
+                      "LETTERSPACING:0.1",
+                      "COLOR:rgba(50, 50, 50, 1.00)"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 23,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 23,
+                      "offset" : 0,
+                      "style" : "SIZE:17"
+                    },
+                    {
+                      "length" : 23,
+                      "offset" : 0,
+                      "style" : "FONT:GF;IBM Plex Sans Condensed-700"
+                    },
+                    {
+                      "length" : 23,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0.1"
+                    },
+                    {
+                      "length" : 23,
+                      "offset" : 0,
+                      "style" : "COLOR:rgba(50, 50, 50, 1.00)"
+                    }
+                  ],
+                  "key" : "cbf5m",
+                  "text" : "Enterprise plan details",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(50, 50, 50, 1.00);font-size:17px;letter-spacing:0.1px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">Enterprise plan details<\/span><\/span><\/div>",
+                "os" : "macos 10_14 framerx",
+                "size" : {
+                  "height" : 20,
+                  "width" : 168
+                },
+                "width" : 0
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 146,
+            "visible" : true,
+            "width" : 168,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : true,
+            "bottom" : null,
+            "centerAnchorX" : 0.16126126126126125,
+            "centerAnchorY" : 0.082758620689655171,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 30,
+            "heightType" : 0,
+            "id" : "bN4noXAgt",
+            "isTarget" : true,
+            "left" : 32,
+            "locked" : false,
+            "name" : "Plan",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Vv_E0Ssia",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "FONT:__SF-UI-Text-Regular__",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "SIZE:25",
+                      "COLOR:rgba(13, 108, 255, 1.00)"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 10,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Regular__"
+                    },
+                    {
+                      "length" : 10,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 10,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 10,
+                      "offset" : 0,
+                      "style" : "SIZE:25"
+                    },
+                    {
+                      "length" : 10,
+                      "offset" : 0,
+                      "style" : "COLOR:rgba(13, 108, 255, 1.00)"
+                    }
+                  ],
+                  "key" : "cbf5m",
+                  "text" : "Enterprise",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:rgba(13, 108, 255, 1.00);font-size:25px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Enterprise<\/span><\/span><\/div>",
+                "os" : "macos 10_14 framerx",
+                "size" : {
+                  "height" : 30,
+                  "width" : 115
+                },
+                "width" : 0
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 33,
+            "visible" : true,
+            "width" : 115,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "bottom" : null,
+            "centerAnchorX" : 0.30090090090090088,
+            "centerAnchorY" : 0.14999999999999999,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 20,
+            "heightType" : 0,
+            "id" : "tlxZ4cqTl",
+            "isTarget" : true,
+            "left" : 32,
+            "locked" : false,
+            "name" : "Billing_options",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Vv_E0Ssia",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "LINEHEIGHT:1.2",
+                      "SIZE:17",
+                      "FONT:GF;IBM Plex Sans Condensed-700",
+                      "LETTERSPACING:0.1",
+                      "COLOR:rgba(111, 111, 111, 1.00)"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 35,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 35,
+                      "offset" : 0,
+                      "style" : "SIZE:17"
+                    },
+                    {
+                      "length" : 35,
+                      "offset" : 0,
+                      "style" : "FONT:GF;IBM Plex Sans Condensed-700"
+                    },
+                    {
+                      "length" : 35,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0.1"
+                    },
+                    {
+                      "length" : 35,
+                      "offset" : 0,
+                      "style" : "COLOR:rgba(111, 111, 111, 1.00)"
+                    }
+                  ],
+                  "key" : "cbf5m",
+                  "text" : "Billed per 100K API calls per month",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(111, 111, 111, 1.00);font-size:17px;letter-spacing:0.1px;line-height:1.2;font-weight:700;font-style:normal\"><span data-text=\"true\">Billed per 100K API calls per month<\/span><\/span><\/div>",
+                "os" : "macos 10_14 framerx",
+                "size" : {
+                  "height" : 20,
+                  "width" : 271
+                },
+                "width" : 270
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 77,
+            "visible" : true,
+            "width" : 270,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "bottom" : null,
+            "centerAnchorX" : 0.25495495495495496,
+            "centerAnchorY" : 0.2103448275862069,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 20,
+            "heightType" : 0,
+            "id" : "TIyQrMNBs",
+            "isTarget" : true,
+            "left" : 32,
+            "locked" : false,
+            "name" : "price",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Vv_E0Ssia",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "LINEHEIGHT:1.2",
+                      "SIZE:17",
+                      "FONT:GF;IBM Plex Sans Condensed-500",
+                      "LETTERSPACING:0",
+                      "COLOR:rgba(107, 107, 107, 1.00)"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 27,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 27,
+                      "offset" : 0,
+                      "style" : "SIZE:17"
+                    },
+                    {
+                      "length" : 27,
+                      "offset" : 0,
+                      "style" : "FONT:GF;IBM Plex Sans Condensed-500"
+                    },
+                    {
+                      "length" : 27,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 27,
+                      "offset" : 0,
+                      "style" : "COLOR:rgba(107, 107, 107, 1.00)"
+                    }
+                  ],
+                  "key" : "cbf5m",
+                  "text" : "$100.00 USD \/100K API calls",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cbf5m-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cbf5m-0-0\" style=\"tab-size:4;font-family:&quot;IBM Plex Sans Condensed&quot;, sans-serif;-webkit-text-fill-color:rgba(107, 107, 107, 1.00);font-size:17px;letter-spacing:0px;line-height:1.2;font-weight:500;font-style:normal\"><span data-text=\"true\">$100.00 USD \/100K API calls<\/span><\/span><\/div>",
+                "os" : "macos 10_14 framerx",
+                "size" : {
+                  "height" : 20,
+                  "width" : 220
+                },
+                "width" : 219
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 112,
+            "visible" : true,
+            "width" : 219,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255, 255, 255, 0.48)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImageOriginalName" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 580,
+        "heightType" : 0,
+        "id" : "Vv_E0Ssia",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 136,
+        "locked" : false,
+        "name" : "Content",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "nzZYuwQJo",
+        "previewSettings" : null,
+        "radius" : 17,
+        "radiusBottomLeft" : 17,
+        "radiusBottomRight" : 17,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 17,
+        "radiusTopRight" : 17,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 1336,
+        "visible" : true,
+        "width" : 555,
         "widthType" : 0
       }
     ],
