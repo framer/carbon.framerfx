@@ -7,6 +7,8 @@
 }
 
 .bx--select,
+.bx--select-input,
 .bx--select-input {
   width: 100%;
+  max-width: 100%;
 }
