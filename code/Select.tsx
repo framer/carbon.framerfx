@@ -28,8 +28,8 @@ export function Select({
 }
 
 Select.defaultProps = {
-    width: 135,
-    height: 35,
+    width: 400,
+    height: 400,
 }
 
 addPropertyControls(Select, {
